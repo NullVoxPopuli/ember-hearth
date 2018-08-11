@@ -13,7 +13,8 @@
 /connect.lock
 /coverage/*
 /libpeerconnection.log
-npm-debug.log
+npm-debug.log*
+yarn-error.log
 testem.log
 
 cli/hearth.nedb.json
@@ -47,3 +48,8 @@ crashlytics-build.properties
 fabric.properties
 
 electron-out
+
+# ember-try
+.node_modules.ember-try/
+bower.json.ember-try
+package.json.ember-try
